@@ -1,0 +1,110 @@
+
+body{
+    margin: 0px;
+    background-color: black;
+    }
+.header{
+    background-color: rgb(226 232 240);
+    display: flex;
+    margin: 0px;
+    transform: none;    
+}
+.connect{
+text-align: right;
+margin-left: 100px;
+text-decoration: none;
+color: black;
+padding-top: 15px;
+border: 2px solid white;
+border-radius: 3px;
+padding-left: 15px;
+padding-top: 10px;
+padding-bottom: 8px;
+padding-right: 15px;
+}
+.pro{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+/*.pro {
+    background-color: aqua;
+    border: 3px solid yellow;
+    margin-left: 5px;
+
+}*/
+nav{
+    padding-top: 12px;
+}
+nav ul {
+    display: flex;
+    padding-left: 400px;
+    list-style-type:none;
+}
+nav ul li a{
+text-decoration: none;
+color:blue;
+border-radius: 3px;
+padding-bottom: 8px;
+padding-left: 30px;
+font-size: 20px;
+}
+nav ul li a:hover{
+    color: aqua;
+}
+.container{
+    display: flex;
+  
+    
+   }
+   .left{
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    display: block;
+    background-image: url("moon.jpg");
+    background-repeat: round;
+    border-radius:20px; 
+  }
+   .right{
+    width: 50%;
+    background-image: url("moon.jpg");
+    border-radius: 20px;
+    background-repeat:round; 
+    transition: all;
+    
+}
+
+.port{
+    color:cornflowerblue;   
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-bottom: 10px;
+}
+.proto{
+    padding-left: 45%;
+    padding-right: 50%;
+    padding-bottom: 10px;
+
+}
+.fol{ 
+     color:cornflowerblue;   
+     padding-left: 50%;
+    padding-right: 50%;
+    padding-bottom: 10px;
+
+}
+.kobi{
+    padding: 50px;
+}
+.pa{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(160, 163, 167);
+}
+.para{
+    font-size: large;
+    font-style: italic;
+    
+}
